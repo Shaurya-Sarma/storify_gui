@@ -4,9 +4,7 @@
 
 2. I utilized the Gemini API to feed a user prompt into a series of very specific custom-made prompts that generate a suitable story. Afterward, I used Gemini to create various multiple-choice comprehension questions. There is a short quiz section where after getting all the questions correct, it shows you a carousel of images that represent the story you just read. The front end is handled by React/Typescript and API calls are made using Python in the back end, specifically FastAPI. I also used the Stable Diffusion XL Model from HuggingFace to actually generate the images. It is mostly responsive web design and I included some basic animations with buttons and styling.
 
-3. ~4-5 hours of programming time. 
-
-4. Included below is a video of the entire project/process. I was having a hard time figuring out how to deploy it live because the Stable Diffusion API utilizes my graphics card and I couldn't figure out how to utilize the graphics card of the machine running the program (aside from my own). 
+3. Included below is a video of the entire project/process. I was having a hard time figuring out how to deploy it live because the Stable Diffusion API utilizes my graphics card and I couldn't figure out how to utilize the graphics card of the machine running the program (aside from my own). 
 
 https://github.com/user-attachments/assets/222652f4-d3a4-40c8-8b06-b29d29d3d74e
 
